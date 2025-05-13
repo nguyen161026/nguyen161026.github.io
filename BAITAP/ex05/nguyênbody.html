@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nguyên thiết Kế Web Đơn Giản</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #0056b3;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #003d80;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service-box {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: 0.3s ease;
+        }
+
+        .service-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .service-box {
+                width: 100%;
+            }
+
+            nav a {
+                float: none;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Thiết Kế Website đơn giản</h1>
+    <p>Chúng tôi giúp bạn xây dựng thương hiệu online</p>
+</header>
+
+<nav>
+    <a href="#home">Trang chủ</a>
+    <a href="#about">Giới thiệu</a>
+    <a href="#services">Dịch vụ</a>
+    <a href="#contact">Liên hệ</a>
+</nav>
+<section id="home">
+    <h2>trang chủ</h2>
+    <p> trang chủ facebook của chúng tôi</p>
+    <p>trang chủ zalo của chúng tôi</p>
+</section>
+
+<section id="about">
+    <h2>Giới thiệu</h2>
+    <p>Chúng tôi là đội ngũ thiết kế web sáng tạo, chuyên cung cấp các giải pháp website cho doanh nghiệp và cá nhân.</p>
+</section>
+
+<section id="services">
+    <h2>Dịch vụ</h2>
+    <div class="services">
+        <div class="service-box">
+            <img src="https://via.placeholder.com/300x180?text=Web+SEO" alt="Thiết kế web chuẩn SEO">
+            <h3>Thiết kế web chuẩn SEO</h3>
+            <p>Giao diện đẹp, dễ sử dụng và tối ưu hóa cho Google.</p>
+        </div>
+        <div class="service-box">
+            <img src="https://via.placeholder.com/300x180?text=Web+Ban+Hang" alt="Thiết kế web bán hàng">
+            <h3>Thiết kế web bán hàng</h3>
+            <p>Tích hợp giỏ hàng, thanh toán online và quản lý đơn hàng.</p>
+        </div>
+        <div class="service-box">
+            <img src="https://via.placeholder.com/300x180?text=Ho+Tro+Ky+Thuat" alt="Hỗ trợ kỹ thuật">
+            <h3>Bảo trì & Hỗ trợ kỹ thuật</h3>
+            <p>Hỗ trợ nâng cấp, sửa lỗi và bảo mật website của bạn.</p>
+        </div>
+    </div>
+</section>
+<section id=" liên hệ">
+    <h2>Thông tin liên của chúng tôi</h2>
+    <P>SĐT: 0769558981</P>
+    <p>Email: nq1689312@gmail.com</p>
+    <P>địa chỉ: xã ea hđing huyện cưmgar tỉnh đăk lăk </P>
+</section>
+
+<footer>
+    <p>&copy; 2025  Nguyên thiết Kế Web đơn giản. Mọi quyền được bảo lưu.</p>
+</footer>
+
+</body>
+</html>
