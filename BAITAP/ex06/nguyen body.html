@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nguyên thiết kế web chuyền nghiệp</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #4CAF50, #2e7d32);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      background-color: #222;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #4CAF50;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #2e7d32;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 600px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ddd;
+      margin-top: 40px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Thiết kế web chuyền nghiệp</h1>
+    <p>Giải pháp công nghệ hiện đại & chuyên nghiệp</p>
+  </header>
+
+  <nav>
+    <a href="#trangchu">Trang Chủ</a>
+    <a href="#thongtin">Thông Tin</a>
+    <a href="#dichvu">Dịch Vụ</a>
+    <a href="#lienhe">Liên Hệ</a>
+  </nav>
+
+  <section id="trangchu">
+    <h2>Trang Chủ</h2>
+    <p>Chào mừng bạn đến với Chúng tôi cung cấp các giải pháp công nghệ sáng tạo giúp doanh nghiệp tăng trưởng và chuyển đổi số thành công.</p>
+  </section>
+
+  <section id="thongtin">
+    <h2>Thông Tin</h2>
+    <p>Chúng tôi là đơn vị tiên phong trong lĩnh vực công nghệ thông tin, chuyên cung cấp dịch vụ tư vấn, phát triển phần mềm, thiết kế website và các giải pháp số hóa cho doanh nghiệp vừa và nhỏ tại Việt Nam.</p>
+  </section>
+
+  <section id="dichvu">
+    <h2>Dịch Vụ</h2>
+    <ul>
+      <li>Thiết kế website chuyên nghiệp</li>
+      <li>Phát triển ứng dụng web & mobile</li>
+      <li>Thiết lập hệ thống máy chủ & cloud</li>
+      <li>Tư vấn và triển khai chuyển đổi số</li>
+    </ul>
+  </section>
+
+  <section id="lienhe">
+    <h2>Liên Hệ</h2>
+    <form>
+      <label for="name">Họ tên:</label>
+      <input type="text" id="name" name="name" placeholder="Nhập họ tên của bạn">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Nhập email">
+
+      <label for="message">Nội dung:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Viết nội dung tại đây..."></textarea>
+
+      <input type="submit" value="Gửi Liên Hệ">
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025  A nguyên thiết kế web chuyền nghiệp. giải pháp và  hiệu quả.
+  </footer>
+
+</body>
+</html>
