@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #1e3d59;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+  background-image: url("https://www.chodulich.com.vn/images/Dia-danh/thac_draysap1.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.showcase h2 {
+  margin-top: 50px;
+  text-align: center;
+  color: #1e3d59;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.place {
+  width: 30%;
+  height: 200px;
+  position: relative;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.place:hover {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ho-lak {
+  background-image: url("https://cdn.xanhsm.com/2024/12/d57d4b7e-ho-lak-dak-lak-19.jpg");
+}
+
+.buon-don {
+  background-image: url("https://mtcs.1cdn.vn/thumbs/540x360/2023/02/20/voi.jpg");
+}
+
+.dray-nur {
+  background-image: url("https://nhadatgland.com/wp-content/uploads/2021/01/thac-dray-nur-DAKLAK.jpg");
+}
+
+footer {
+  background: #1e3d59;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+@media (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .place {
+    width: 90%;
+    height: 180px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .banner {
+    height: 200px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .overlay {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+}
